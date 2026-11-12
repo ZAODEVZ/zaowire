@@ -1,0 +1,990 @@
+{
+ "collected": "2026-11-12",
+ "researchSource": "cached",
+ "repos": {
+  "zaodevz/zaowire": {
+   "full": "ZAODEVZ/zaowire",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zabalgames": {
+   "full": "ZAODEVZ/zabalgames",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaoonparagraph": {
+   "full": "ZAODEVZ/zaoonparagraph",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaoscout": {
+   "full": "ZAODEVZ/ZAOscout",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zao-harness": {
+   "full": "ZAODEVZ/zao-harness",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaostock": {
+   "full": "ZAODEVZ/ZAOstock",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaofractal": {
+   "full": "ZAODEVZ/ZAOfractal",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zao101": {
+   "full": "ZAODEVZ/ZAO101",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaodevz": {
+   "full": "ZAODEVZ/ZAODEVZ",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/.github": {
+   "full": "ZAODEVZ/.github",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zao-chat-window": {
+   "full": "ZAODEVZ/zao-chat-window",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaocowork": {
+   "full": "ZAODEVZ/ZAOcowork",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/thezao.com-iman-ui": {
+   "full": "ZAODEVZ/thezao.com-iman-ui",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaoartizen": {
+   "full": "ZAODEVZ/ZAOartizen",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaosribebot": {
+   "full": "ZAODEVZ/ZAOsribeBOT",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/thezaodevzapp": {
+   "full": "ZAODEVZ/TheZAODEVZapp",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zuke": {
+   "full": "ZAODEVZ/Zuke",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaomemberz": {
+   "full": "ZAODEVZ/ZAOmemberz",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/thezaozone": {
+   "full": "ZAODEVZ/theZAOZone",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zlank-iman-version": {
+   "full": "ZAODEVZ/zlank-iman-version",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaopoker": {
+   "full": "ZAODEVZ/ZAOpoker",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaonexus-iman-ui": {
+   "full": "ZAODEVZ/zaonexus-iman-ui",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/compliance-zm": {
+   "full": "ZAODEVZ/compliance-zm",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/wwa-onboarding-app": {
+   "full": "ZAODEVZ/WWA-Onboarding-app",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "bettercallzaal/sparkz": {
+   "full": "bettercallzaal/sparkz",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/poidhz": {
+   "full": "bettercallzaal/poidhz",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-repos": {
+   "full": "bettercallzaal/zao-repos",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaoos": {
+   "full": "bettercallzaal/ZAOOS",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaomixz": {
+   "full": "bettercallzaal/ZAOMixZ",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaoonparagraph": {
+   "full": "bettercallzaal/zaoonparagraph",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaal-eth": {
+   "full": "bettercallzaal/zaal-eth",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaotravelz": {
+   "full": "bettercallzaal/zaotravelz",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zorca": {
+   "full": "bettercallzaal/zorca",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zabalartsubmission": {
+   "full": "bettercallzaal/zabalartsubmission",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-learns-zoroastrianism": {
+   "full": "bettercallzaal/zao-learns-zoroastrianism",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/b-zbuild2": {
+   "full": "bettercallzaal/B-ZBUILD2",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/bettercallzaal": {
+   "full": "bettercallzaal/bettercallzaal",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-fractal-bot": {
+   "full": "bettercallzaal/zao-fractal-bot",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/bettercallzaalwebsite": {
+   "full": "bettercallzaal/bettercallzaalwebsite",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/bcz-yapz": {
+   "full": "bettercallzaal/bcz-yapz",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/battle-meter": {
+   "full": "bettercallzaal/battle-meter",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-website": {
+   "full": "bettercallzaal/zao-website",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/fractalbotdec2025": {
+   "full": "bettercallzaal/fractalbotdec2025",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-media": {
+   "full": "bettercallzaal/zao-media",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-app": {
+   "full": "bettercallzaal/zao-app",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/p2e-x-zao": {
+   "full": "bettercallzaal/p2e-x-zao",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/cocconcertz": {
+   "full": "bettercallzaal/CoCConcertZ",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaaltimelinev1": {
+   "full": "bettercallzaal/zaaltimelinev1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-xmtp": {
+   "full": "bettercallzaal/zao-xmtp",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zingfisher": {
+   "full": "bettercallzaal/zingfisher",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-papers": {
+   "full": "bettercallzaal/zao-papers",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zol": {
+   "full": "bettercallzaal/zol",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/sidebysidev2": {
+   "full": "bettercallzaal/SidebySidev2",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zabalbot": {
+   "full": "bettercallzaal/zabalbot",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/bettercallzaal-coding-hub": {
+   "full": "bettercallzaal/bettercallzaal-coding-hub",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/16statestreet": {
+   "full": "bettercallzaal/16statestreet",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-doots": {
+   "full": "bettercallzaal/zao-doots",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zoostr": {
+   "full": "bettercallzaal/zoostr",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaonexus": {
+   "full": "bettercallzaal/ZAONEXUS",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaopaperzbot": {
+   "full": "bettercallzaal/ZAOpaperzBOT",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaal-client": {
+   "full": "bettercallzaal/zaal-client",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/farscout": {
+   "full": "bettercallzaal/farscout",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/gnome-pear-club": {
+   "full": "bettercallzaal/gnome-pear-club",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-claude-skills": {
+   "full": "bettercallzaal/zao-claude-skills",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/hermes-orchestrator": {
+   "full": "bettercallzaal/hermes-orchestrator",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zignite": {
+   "full": "bettercallzaal/zignite",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zlank-snap-template": {
+   "full": "bettercallzaal/zlank-snap-template",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zlank": {
+   "full": "bettercallzaal/zlank",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zdeepmeeting": {
+   "full": "bettercallzaal/zdeepmeeting",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaoscribe": {
+   "full": "bettercallzaal/zaoscribe",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaoprojects": {
+   "full": "bettercallzaal/zaoprojects",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaomusicbot": {
+   "full": "bettercallzaal/zaomusicbot",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-social": {
+   "full": "bettercallzaal/zao-social",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-fractal-bot-archive": {
+   "full": "bettercallzaal/zao-fractal-bot-archive",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zai-archive": {
+   "full": "bettercallzaal/zai-archive",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zabalsocials": {
+   "full": "bettercallzaal/zabalsocials",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zabalsnap1": {
+   "full": "bettercallzaal/zabalsnap1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zabalnewsletter": {
+   "full": "bettercallzaal/zabalnewsletter",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zabal-bot-archive": {
+   "full": "bettercallzaal/zabal-bot-archive",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaaltimelinev1.1": {
+   "full": "bettercallzaal/zaaltimelinev1.1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/wwbase": {
+   "full": "bettercallzaal/wwbase",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/wavewarzapp": {
+   "full": "bettercallzaal/wavewarzapp",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/wavewarz-overlay": {
+   "full": "bettercallzaal/wavewarz-overlay",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/uvrintrobot": {
+   "full": "bettercallzaal/uvrintrobot",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/textsplitter": {
+   "full": "bettercallzaal/textsplitter",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/spacetovideo": {
+   "full": "bettercallzaal/spacetovideo",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/raycast": {
+   "full": "bettercallzaal/raycast",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/nouns-snap": {
+   "full": "bettercallzaal/nouns-snap",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/mixer": {
+   "full": "bettercallzaal/mixer",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/ltaesnap": {
+   "full": "bettercallzaal/ltaesnap",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/fishbowlz": {
+   "full": "bettercallzaal/fishbowlz",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/ethboulderjournal": {
+   "full": "bettercallzaal/ethboulderjournal",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/duodo-snap": {
+   "full": "bettercallzaal/duodo-snap",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/bettercallzaal-strategies": {
+   "full": "bettercallzaal/bettercallzaal-strategies",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zounz": {
+   "full": "bettercallzaal/ZOUNZ",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaoflights": {
+   "full": "bettercallzaal/ZAOFlights",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-leaderboard": {
+   "full": "bettercallzaal/ZAO-Leaderboard",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/resumev1": {
+   "full": "bettercallzaal/RESUMEV1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/custompdfcreator": {
+   "full": "bettercallzaal/CustomPDFCreator",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-claude-kit": {
+   "full": "bettercallzaal/zao-claude-kit",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zabalnewsletterbuilder": {
+   "full": "bettercallzaal/zabalnewsletterbuilder",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaovideoeditor": {
+   "full": "bettercallzaal/ZAOVideoEditor",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaocowork": {
+   "full": "bettercallzaal/zaocowork",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/fractalbotapril2026": {
+   "full": "bettercallzaal/fractalbotapril2026",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/expo-testflight-playbook": {
+   "full": "bettercallzaal/expo-testflight-playbook",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-101": {
+   "full": "bettercallzaal/zao-101",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-stock": {
+   "full": "bettercallzaal/zao-stock",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaostock": {
+   "full": "bettercallzaal/zaostock",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/bcz-journal": {
+   "full": "bettercallzaal/bcz-journal",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/riverside-group-demo": {
+   "full": "bettercallzaal/riverside-group-demo",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/imanprojects": {
+   "full": "bettercallzaal/imanprojects",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/farmdrop": {
+   "full": "bettercallzaal/farmdrop",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/crownvics": {
+   "full": "bettercallzaal/crownvics",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/fractalbotmarch2026": {
+   "full": "bettercallzaal/fractalbotmarch2026",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-video-editor": {
+   "full": "bettercallzaal/ZAO-Video-Editor",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/fractalbotfeb2026": {
+   "full": "bettercallzaal/fractalbotfeb2026",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zski": {
+   "full": "bettercallzaal/zski",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/fractalbotv1old": {
+   "full": "bettercallzaal/fractalbotv1old",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/cedartide": {
+   "full": "bettercallzaal/cedartide",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/fractalbotnov2025": {
+   "full": "bettercallzaal/fractalbotnov2025",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/viz1": {
+   "full": "bettercallzaal/Viz1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/newsletterbot1": {
+   "full": "bettercallzaal/Newsletterbot1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/warzai": {
+   "full": "bettercallzaal/WARZAI",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/firsttimehomebuyers-guide": {
+   "full": "bettercallzaal/Firsttimehomebuyers-guide",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaiv2": {
+   "full": "bettercallzaal/ZAIV2",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaiv1": {
+   "full": "bettercallzaal/ZAIV1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/fractalbotv3june2025": {
+   "full": "bettercallzaal/fractalbotV3June2025",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-fractal-botv2": {
+   "full": "bettercallzaal/ZAO-FRACTAL-BOTV2",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zalorav1": {
+   "full": "bettercallzaal/zaloraV1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/newsletter-bot-1": {
+   "full": "bettercallzaal/newsletter-bot-1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/agent2": {
+   "full": "bettercallzaal/Agent2",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "boffti/starwire": {
+   "full": "boffti/starwire",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "the list that inspired this one, Zaal: \"make this for zao\""
+    }
+   ]
+  },
+  "achimala/dream-loop": {
+   "full": "achimala/dream-loop",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: image target + critic loop for Blender scenes"
+    }
+   ]
+  },
+  "el4cteo/blender-skills": {
+   "full": "EL4CTEO/blender-skills",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: agent skills for the Blender pipeline"
+    }
+   ]
+  },
+  "microsoft/trellis.2": {
+   "full": "microsoft/TRELLIS.2",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: image to textured 3D asset, needs a 24 GB NVIDIA GPU"
+    }
+   ]
+  },
+  "nexu-io/open-design": {
+   "full": "nexu-io/open-design",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: local-first design workspace for coding agents"
+    }
+   ]
+  },
+  "pbakaus/impeccable": {
+   "full": "pbakaus/impeccable",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: critique, audit, polish commands for design"
+    }
+   ]
+  },
+  "heygen-com/hyperframes": {
+   "full": "heygen-com/hyperframes",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: HTML to MP4, see research 420 and 2448"
+    }
+   ]
+  },
+  "obra/superpowers": {
+   "full": "obra/superpowers",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: a process for coding agents, see research 054 and 1966"
+    }
+   ]
+  },
+  "graphify-labs/graphify": {
+   "full": "Graphify-Labs/graphify",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: code and docs into a knowledge graph, see research 297 and 1944"
+    }
+   ]
+  },
+  "browser-use/browser-use": {
+   "full": "browser-use/browser-use",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: let an agent drive a browser"
+    }
+   ]
+  },
+  "googleworkspace/cli": {
+   "full": "googleworkspace/cli",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: Drive, Gmail, Sheets from the terminal, not an official Google product"
+    }
+   ]
+  },
+  "anupml/unqforge": {
+   "full": "anupml/unqforge",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: AI writes iOS Shortcuts as code, 4,824 action SQL database"
+    }
+   ]
+  },
+  "electrikmilk/cherri": {
+   "full": "electrikmilk/cherri",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: a language that compiles to iOS Shortcuts"
+    }
+   ]
+  },
+  "anthropics/skills": {
+   "full": "anthropics/skills",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: the skills behind Claude's document tools"
+    }
+   ]
+  },
+  "vercel-labs/agent-skills": {
+   "full": "vercel-labs/agent-skills",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: React and Next.js rules, 100+ UI checks"
+    }
+   ]
+  },
+  "openai/skills": {
+   "full": "openai/skills",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: Codex skills, marked deprecated"
+    }
+   ]
+  },
+  "google/skills": {
+   "full": "google/skills",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: Google Cloud skills"
+    }
+   ]
+  },
+  "huggingface/skills": {
+   "full": "huggingface/skills",
+   "docs": [],
+   "estate": null,
+   "inbox": [
+    {
+     "date": "2026-11-12",
+     "note": "Zaal's Reddit link: model training and Spaces skills"
+    }
+   ]
+  }
+ }
+}
