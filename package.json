@@ -1,0 +1,16 @@
+{
+  "name": "zaowire",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Every GitHub repo The ZAO has looked at, in one list that updates itself.",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "collect": "node scripts/collect.mjs",
+    "enrich": "node scripts/enrich.mjs",
+    "render": "node scripts/render.mjs",
+    "site": "node -e \"import('node:http').then(h=>{const fs=require('fs'),p=require('path');h.createServer((q,s)=>{let f=p.join('docs',q.url.split('?')[0]==='/'?'index.html':q.url.split('?')[0]);fs.readFile(f,(e,d)=>{s.writeHead(e?404:200,{'content-type':f.endsWith('.json')?'application/json':'text/html'});s.end(e?'nope':d)})}).listen(8787,()=>console.log('http://localhost:8787'))})\""
+  },
+  "engines": { "node": ">=20" },
+  "license": "CC0-1.0"
+}

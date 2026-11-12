@@ -1,0 +1,38 @@
+{
+  "name": "zaowire",
+  "title": "ZAOwire",
+  "tagline": "Every GitHub repo The ZAO has looked at, in one list that updates itself.",
+  "siteUrl": "https://zaodevz.github.io/zaowire/",
+  "researchRepo": "ZAODEVZ/ZAOresearch",
+  "researchDocsPrefix": "research/",
+  "estateOwners": ["ZAODEVZ", "bettercallzaal"],
+  "skipOwners": [
+    "orgs", "topics", "features", "settings", "marketplace", "sponsors", "apps", "login",
+    "search", "about", "site", "blog", "pricing", "explore", "trending", "new",
+    "notifications", "issues", "pulls", "collections", "readme", "events", "contact",
+    "enterprise", "security", "team", "customer-stories", "mobile", "codespaces",
+    "copilot", "discussions", "account", "join", "organizations", "dashboard", "stars",
+    "watching", "pages", "github", "actions", "projects", "users", "repos", "signup"
+  ],
+  "areas": {
+    "agents": "AI agents and bots",
+    "dev-workflows": "Dev workflows and coding agents",
+    "farcaster": "Farcaster",
+    "media": "Media, video and design",
+    "music": "Music and audio",
+    "business": "Business, tokens and money",
+    "technology": "Technology and infrastructure",
+    "infrastructure": "Technology and infrastructure",
+    "community": "Community and people",
+    "governance": "Governance",
+    "wavewarz": "WaveWarZ",
+    "zabal": "ZABAL",
+    "events": "Events and shows",
+    "identity": "Identity and brand",
+    "cross-platform": "Cross platform and social",
+    "security": "Security"
+  },
+  "historyDays": 90,
+  "trendingMinStars": 20,
+  "newDays": 7
+}

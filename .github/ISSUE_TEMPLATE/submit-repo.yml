@@ -1,0 +1,32 @@
+name: Add a repo
+description: Put a GitHub repo on ZAOwire
+title: "Add: owner/repo"
+labels: ["inbox"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Repo link
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: note
+    attributes:
+      label: Why it matters to ZAO, in one line
+      placeholder: e.g. HTML to MP4, could replace Remotion for the newsletter promos
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - AI agents and bots
+        - Dev workflows and coding agents
+        - Farcaster
+        - Media, video and design
+        - Music and audio
+        - Business, tokens and money
+        - Technology and infrastructure
+        - Community and people
+        - Governance
+        - Other
