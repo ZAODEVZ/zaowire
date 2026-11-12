@@ -124,11 +124,17 @@ lines.push("## 🗂️ By area");
 lines.push("");
 lines.push("<sub>Area comes from the research topic the repo was filed under. Most stars first.</sub>");
 lines.push("");
+const AREA_CAP = 25;
 for (const [name, list] of Object.entries(byArea).sort((a, b) => b[1].length - a[1].length)) {
   lines.push(`<details><summary><b>${name}</b> · ${list.length}</summary>`);
   lines.push("");
   lines.push(header);
-  for (const r of list.sort((a, b) => b.stars - a.stars)) lines.push(row(r));
+  const sorted = list.sort((a, b) => b.stars - a.stars);
+  for (const r of sorted.slice(0, AREA_CAP)) lines.push(row(r));
+  if (sorted.length > AREA_CAP) {
+    lines.push("");
+    lines.push(`<sub>${sorted.length - AREA_CAP} more in this area on [the site](${config.siteUrl}), filter by area.</sub>`);
+  }
   lines.push("");
   lines.push("</details>");
   lines.push("");
