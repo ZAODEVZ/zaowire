@@ -1,6 +1,6 @@
 {
- "collected": "2026-11-12",
- "researchSource": "api",
+ "collected": "2026-11-13",
+ "researchSource": "cached",
  "repos": {
   "vectorize-io/hindsight": {
    "full": "vectorize-io/hindsight",
@@ -18061,26 +18061,38 @@
    "estate": null,
    "inbox": []
   },
-  "zaodevz/zao-harness": {
-   "full": "ZAODEVZ/zao-harness",
-   "docs": [],
-   "estate": "ZAODEVZ",
-   "inbox": []
-  },
   "zaodevz/zaowire": {
    "full": "ZAODEVZ/zaowire",
    "docs": [],
    "estate": "ZAODEVZ",
    "inbox": []
   },
-  "zaodevz/zaoonparagraph": {
-   "full": "ZAODEVZ/zaoonparagraph",
+  "zaodevz/zao-harness": {
+   "full": "ZAODEVZ/zao-harness",
    "docs": [],
    "estate": "ZAODEVZ",
    "inbox": []
   },
   "zaodevz/zaofractal": {
    "full": "ZAODEVZ/ZAOfractal",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/wavewarz-africa": {
+   "full": "ZAODEVZ/wavewarz-africa",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zao-stats": {
+   "full": "ZAODEVZ/zao-stats",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaoonparagraph": {
+   "full": "ZAODEVZ/zaoonparagraph",
    "docs": [],
    "estate": "ZAODEVZ",
    "inbox": []

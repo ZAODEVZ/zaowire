@@ -1473,5 +1473,7 @@
  "vercel-labs/agent-skills": "2026-11-12",
  "openai/skills": "2026-11-12",
  "google/skills": "2026-11-12",
- "huggingface/skills": "2026-11-12"
+ "huggingface/skills": "2026-11-12",
+ "zaodevz/wavewarz-africa": "2026-11-13",
+ "zaodevz/zao-stats": "2026-11-13"
 }
