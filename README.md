@@ -10,6 +10,18 @@ How it is built: every `github.com/owner/repo` link inside the ZAO research libr
 
 <sub>Needs two days of star counts. Comes alive after the next update.</sub>
 
+## Security gate, before any repo is reviewed
+
+Zaal, 13 Nov 2026: "Add security check and gate before we review anything." Every repo that reaches this list, the desk or a research doc goes through `scripts/gate.mjs` first, and nobody clones, installs, runs or reviews it before the gate report exists.
+
+```
+node scripts/gate.mjs rinturaj/awesome-software-clones        # or a github.com URL; several at once is fine
+```
+
+Read-only: GitHub API and raw file reads, nothing is cloned or executed. It writes `gates/<owner>__<repo>.md` and prints one line: **PASS** (nothing found; still no install or run outside a sandbox), **REVIEW** (clone read-only, no install; findings listed) or **BLOCK** (any CRITICAL finding or two HIGH: a human reads the findings before anyone touches it). What it checks: repo and owner age, licence, committed binaries and .env files, registry overrides, agent configs and instruction files (CLAUDE.md, .cursorrules, .mcp.json, hooks), install hooks in package.json, dependency names close to popular packages, URL dependencies, workflow risks (pull_request_target, PR head checkout, script injection, unpinned actions, Trivy by tag, secrets next to network calls), curl piped to a shell, eval and process spawning, embedded base64, token-shaped strings, exfil-shaped URLs, prompt-injection bait, minified source. The method is ZAOresearch 2433 (our own repos) extended to strangers' repos in 2486.
+
+First through the gate: rinturaj/awesome-software-clones, REVIEW (one finding: the repo is a day old). Reports live in `gates/`.
+
 ## 🆕 New on the list
 
 <sub>30 repos first seen in the last 7 days, most stars first.</sub>
