@@ -83,7 +83,7 @@ async function gate(spec) {
     if (BINARY.test(e.path)) add("HIGH", "committed binary", e.path, `${e.size} bytes; never run it`);
     if (/(^|\/)\.env(\.local|\.production|\.development)?$/.test(e.path)) add("CRITICAL", "committed .env file", e.path);
     if (/(^|\/)(\.npmrc|\.yarnrc(\.yml)?|\.pypirc|pip\.conf)$/.test(e.path)) add("MEDIUM", "package manager config in repo", e.path, "check for registry overrides");
-    if (/(^|\/)(fa-solid-400\.woff2|spellright\.dict|temp_auto_push\.bat|config\.bat)$/.test(e.path)) add("HIGH", "PolinRider loader file name", e.path, "config-file malware family (ZAOresearch 2530); never open this repo in an editor");
+    if (/(^|\/)(fa-solid-400\.woff2|spellright\.dict|temp_auto_push\.bat|config\.bat)$/.test(e.path)) add("HIGH", "PolinRider loader file name", e.path, "config-file malware family (ZAOresearch 2531); never open this repo in an editor");
     if (/(^|\/)(\.claude\/settings(\.local)?\.json|\.mcp\.json|\.cursor\/|\.vscode\/tasks\.json|\.claude\/hooks)/.test(e.path)) add("MEDIUM", "agent config in repo", e.path, "hooks and MCP servers run on an agent's machine; read before any agent opens this repo");
   }
 
@@ -122,7 +122,7 @@ async function gate(spec) {
       hit(/secrets\.[A-Z_]+.*(curl|wget|nc |http)/i, "HIGH", "secret next to a network call in a workflow");
       hit(/self-hosted/, "LOW", "self-hosted runner named");
     }
-    if (/\.(c|m)?(j|t)sx?$/.test(p)) hit(/\S[ \t]{150,}\S/, "HIGH", "code hidden after a long whitespace run", "PolinRider / Bread Nov 2026 pattern: scroll right on this line (ZAOresearch 2530)");
+    if (/\.(c|m)?(j|t)sx?$/.test(p)) hit(/\S[ \t]{150,}\S/, "HIGH", "code hidden after a long whitespace run", "PolinRider / Bread Nov 2026 pattern: scroll right on this line (ZAOresearch 2531)");
     hit(/rmcej%otb%|_\$_1e42|Cot%3t=shtP/, "CRITICAL", "PolinRider marker string");
     if (/\.vscode\/tasks\.json$/.test(p)) hit(/"runOn"\s*:\s*"folderOpen"/, "HIGH", "task runs when the folder is opened", "opening this repo in VS Code runs a command");
     hit(/(curl|wget)\b[^|\n]*\|\s*(sudo\s+)?(ba|z|da)?sh\b/, "HIGH", "curl or wget piped to a shell");
