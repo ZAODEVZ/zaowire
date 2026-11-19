@@ -1,5 +1,5 @@
 {
- "collected": "2026-11-17",
+ "collected": "2026-11-19",
  "researchSource": "cached",
  "repos": {
   "vectorize-io/hindsight": {
@@ -18061,14 +18061,8 @@
    "estate": null,
    "inbox": []
   },
-  "zaodevz/thezaodevzapp": {
-   "full": "ZAODEVZ/TheZAODEVZapp",
-   "docs": [],
-   "estate": "ZAODEVZ",
-   "inbox": []
-  },
-  "zaodevz/thezao.com-iman-ui": {
-   "full": "ZAODEVZ/thezao.com-iman-ui",
+  "zaodevz/zoostr-snap": {
+   "full": "ZAODEVZ/zoostr-snap",
    "docs": [],
    "estate": "ZAODEVZ",
    "inbox": []
@@ -18079,8 +18073,26 @@
    "estate": "ZAODEVZ",
    "inbox": []
   },
+  "zaodevz/thezao.com-iman-ui": {
+   "full": "ZAODEVZ/thezao.com-iman-ui",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/thezaodevzapp": {
+   "full": "ZAODEVZ/TheZAODEVZapp",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
   "zaodevz/zaofractal": {
    "full": "ZAODEVZ/ZAOfractal",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
+  "zaodevz/zaowire": {
+   "full": "ZAODEVZ/zaowire",
    "docs": [],
    "estate": "ZAODEVZ",
    "inbox": []
@@ -18093,12 +18105,6 @@
   },
   "zaodevz/zaoonparagraph": {
    "full": "ZAODEVZ/zaoonparagraph",
-   "docs": [],
-   "estate": "ZAODEVZ",
-   "inbox": []
-  },
-  "zaodevz/zaowire": {
-   "full": "ZAODEVZ/zaowire",
    "docs": [],
    "estate": "ZAODEVZ",
    "inbox": []
@@ -18187,6 +18193,24 @@
    "estate": "bettercallzaal",
    "inbox": []
   },
+  "bettercallzaal/zaaltimelinev1": {
+   "full": "bettercallzaal/zaaltimelinev1",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zao-app": {
+   "full": "bettercallzaal/zao-app",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
+  "bettercallzaal/zaoprojects": {
+   "full": "bettercallzaal/zaoprojects",
+   "docs": [],
+   "estate": "bettercallzaal",
+   "inbox": []
+  },
   "bettercallzaal/zaoonparagraph": {
    "full": "bettercallzaal/zaoonparagraph",
    "docs": [],
@@ -18241,20 +18265,8 @@
    "estate": "bettercallzaal",
    "inbox": []
   },
-  "bettercallzaal/zao-app": {
-   "full": "bettercallzaal/zao-app",
-   "docs": [],
-   "estate": "bettercallzaal",
-   "inbox": []
-  },
   "bettercallzaal/p2e-x-zao": {
    "full": "bettercallzaal/p2e-x-zao",
-   "docs": [],
-   "estate": "bettercallzaal",
-   "inbox": []
-  },
-  "bettercallzaal/zaaltimelinev1": {
-   "full": "bettercallzaal/zaaltimelinev1",
    "docs": [],
    "estate": "bettercallzaal",
    "inbox": []
@@ -18333,12 +18345,6 @@
   },
   "bettercallzaal/zignite": {
    "full": "bettercallzaal/zignite",
-   "docs": [],
-   "estate": "bettercallzaal",
-   "inbox": []
-  },
-  "bettercallzaal/zaoprojects": {
-   "full": "bettercallzaal/zaoprojects",
    "docs": [],
    "estate": "bettercallzaal",
    "inbox": []
