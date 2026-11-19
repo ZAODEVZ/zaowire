@@ -83,6 +83,7 @@ async function gate(spec) {
     if (BINARY.test(e.path)) add("HIGH", "committed binary", e.path, `${e.size} bytes; never run it`);
     if (/(^|\/)\.env(\.local|\.production|\.development)?$/.test(e.path)) add("CRITICAL", "committed .env file", e.path);
     if (/(^|\/)(\.npmrc|\.yarnrc(\.yml)?|\.pypirc|pip\.conf)$/.test(e.path)) add("MEDIUM", "package manager config in repo", e.path, "check for registry overrides");
+    if (/(^|\/)(fa-solid-400\.woff2|spellright\.dict|temp_auto_push\.bat|config\.bat)$/.test(e.path)) add("HIGH", "PolinRider loader file name", e.path, "config-file malware family (ZAOresearch 2530); never open this repo in an editor");
     if (/(^|\/)(\.claude\/settings(\.local)?\.json|\.mcp\.json|\.cursor\/|\.vscode\/tasks\.json|\.claude\/hooks)/.test(e.path)) add("MEDIUM", "agent config in repo", e.path, "hooks and MCP servers run on an agent's machine; read before any agent opens this repo");
   }
 
@@ -121,6 +122,9 @@ async function gate(spec) {
       hit(/secrets\.[A-Z_]+.*(curl|wget|nc |http)/i, "HIGH", "secret next to a network call in a workflow");
       hit(/self-hosted/, "LOW", "self-hosted runner named");
     }
+    if (/\.(c|m)?(j|t)sx?$/.test(p)) hit(/\S[ \t]{150,}\S/, "HIGH", "code hidden after a long whitespace run", "PolinRider / Bread Nov 2026 pattern: scroll right on this line (ZAOresearch 2530)");
+    hit(/rmcej%otb%|_\$_1e42|Cot%3t=shtP/, "CRITICAL", "PolinRider marker string");
+    if (/\.vscode\/tasks\.json$/.test(p)) hit(/"runOn"\s*:\s*"folderOpen"/, "HIGH", "task runs when the folder is opened", "opening this repo in VS Code runs a command");
     hit(/(curl|wget)\b[^|\n]*\|\s*(sudo\s+)?(ba|z|da)?sh\b/, "HIGH", "curl or wget piped to a shell");
     hit(/\beval\s*\(|new Function\s*\(|child_process|execSync\s*\(|subprocess\.(Popen|run|call)\(|os\.system\(/, /\.(md|txt)$/.test(p) ? "LOW" : "MEDIUM", "code execution primitive");
     hit(/(atob|Buffer\.from)\s*\([^)]*['"][A-Za-z0-9+/=]{40,}/, "HIGH", "decodes an embedded base64 blob");
@@ -163,7 +167,7 @@ function report(r) {
     if (r.findings.length > 120) L.push(`| | ${r.findings.length - 120} more | | |`);
     L.push("");
   }
-  L.push("Checks: age and owner, licence, binaries, committed .env, registry overrides, agent configs and instruction files, install hooks in package.json, dependency names near popular packages, URL dependencies, workflow risks (pull_request_target, PR head checkout, script injection, unpinned actions, Trivy by tag, secrets near network calls), curl | sh, eval and process spawning, embedded base64, token-shaped strings, exfil-shaped URLs, prompt-injection bait, minified source. Read-only: GitHub API and raw file reads, nothing cloned or executed. Method: ZAOresearch 2433 and 2486.", "");
+  L.push("Checks: age and owner, licence, binaries, committed .env, registry overrides, agent configs and instruction files, config-file malware (whitespace-hidden code, PolinRider names and markers, folderOpen tasks), config-file malware (whitespace-hidden code, PolinRider names and markers, folderOpen tasks), install hooks in package.json, dependency names near popular packages, URL dependencies, workflow risks (pull_request_target, PR head checkout, script injection, unpinned actions, Trivy by tag, secrets near network calls), curl | sh, eval and process spawning, embedded base64, token-shaped strings, exfil-shaped URLs, prompt-injection bait, minified source. Read-only: GitHub API and raw file reads, nothing cloned or executed. Method: ZAOresearch 2433 and 2486.", "");
   return L.join("\n");
 }
 
