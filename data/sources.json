@@ -1,5 +1,5 @@
 {
- "collected": "2026-11-25",
+ "collected": "2026-11-27",
  "researchSource": "cached",
  "repos": {
   "vectorize-io/hindsight": {
@@ -18067,6 +18067,12 @@
    "estate": "ZAODEVZ",
    "inbox": []
   },
+  "zaodevz/zaowire": {
+   "full": "ZAODEVZ/zaowire",
+   "docs": [],
+   "estate": "ZAODEVZ",
+   "inbox": []
+  },
   "zaodevz/zao-insta": {
    "full": "ZAODEVZ/zao-insta",
    "docs": [],
@@ -18075,12 +18081,6 @@
   },
   "zaodevz/zaofractal": {
    "full": "ZAODEVZ/ZAOfractal",
-   "docs": [],
-   "estate": "ZAODEVZ",
-   "inbox": []
-  },
-  "zaodevz/zaowire": {
-   "full": "ZAODEVZ/zaowire",
    "docs": [],
    "estate": "ZAODEVZ",
    "inbox": []
